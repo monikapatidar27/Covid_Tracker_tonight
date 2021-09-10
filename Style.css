@@ -30,10 +30,10 @@ body{
                  0 0 10px #e74fc6,
                  0 0 10px #e74fc6;
 }
-.searchbox:hover > .searchTxt{
+.searchbox:hover > .searchtext{
     width: 240px;
     text-align: center;
-    color: #00b3ff;
+    color: #303df0;
     font-size: 20px;
     padding: 0 6px;   
 }
@@ -80,22 +80,6 @@ h1 img{
     width: 100%;
     flex-wrap: wrap;
 }
-.box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100px;
-    width: 25%;
-    margin: 20px;
-    background: rgba(255,255,255,0.2);
-    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
-    border-radius: 50px;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255,255,255,0.25);
-    border-left: 1px solid rgba(255,255,255,0.5);
-    border-top: 1px solid rgba(255,255,255,0.5);
-}
 .box .subtitle, .data{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -104,6 +88,25 @@ h1 img{
     letter-spacing: 2px;
     justify-content:center;
     align-items:center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    width: 25%;
+    margin: 20px;
+
+    background: rgba(17, 17, 17, 0.2);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+    border-radius: 50px;
+    
+    backdrop-filter: blur(10px);
+    
+    border: 1.5px solid rgba(253, 2, 2, 0.25);
+    border-left: 1.5px solid rgba(255,255,255,0.5);
+    border-top: 1.5px solid rgba(255,255,255,0.5);
 }
 .data{
     color: #fff;
